@@ -3,6 +3,10 @@
   ;
 }
 
+body{
+
+  background-color: grey;
+}
 .container:after{
 
   clear: both;
@@ -17,9 +21,14 @@
   width: 33.33%;
   height: 500px;
 
-  background-color: #f7f7f7;
+  background-color: white;
+}
+
+#social{
+
 
 }
+
 #fotocv{
 background-image: url("drum.jpg");
 height: 200px;
@@ -32,9 +41,9 @@ margin-right: auto;
 
 
 
-h1{
+.colonna1 h1{
 
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   color: red;
 }
@@ -50,47 +59,33 @@ button{
 
   background-color: red;
   color: white;
+  display: block;
+  margin: auto;
+
 
 
 }
 
 .colonna2{
-
-  float: right;
-  margin-right: 10px;
-  width: 60%;
+  background-color: white;
+  float: left;
+  width: calc(100% - 33.33%);
   height: 500px;
-  border: 1px solid black;
-  background-color: #f7f7f7;
-
-
-}
-
-#fotomario{
-  background-image: url("mario.jpg");
-  height: 33.33%;
-  width: 150px;
-  background-size:cover;
-  margin: 0;
 
 }
 
 
+.colonna2 h1{
 
 
 
 
 
+}
 
-#fotozelda
-#fotocdonkey
+img{
 
-
-
-
-
-#social{
-
-
-
+  float: left;
+  width: 50px;
+  height: 100px;
 }
