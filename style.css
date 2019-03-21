@@ -3,6 +3,14 @@
   ;
 }
 
+.container:after{
+
+  clear: both;
+  display: table;
+  content: "";
+
+  }
+
 .colonna1{
 
   float: left;
@@ -40,7 +48,7 @@ button{
 
   background-color: red;
   color: white;
-  
+
 
 }
 
