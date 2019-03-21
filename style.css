@@ -8,8 +8,39 @@
   float: left;
   width: 33.33%;
   height: 500px;
-  border: 1px solid black;
-  background-color: #f2f4f7;
+
+  background-color: #f7f7f7;
+
+}
+#fotocv{
+background-image: url("drum.jpg");
+height: 200px;
+width: 200px;
+background-size:cover;
+border-radius: 50%;
+margin-left: auto;
+margin-right: auto;
+}
+
+h1{
+
+  font-size: 30px;
+  text-align: center;
+  color: red;
+}
+
+h2{
+
+  font-size: 20px;
+  text-align: center;
+
+}
+
+button{
+
+  background-color: red;
+  color: white;
+  
 
 }
 
@@ -20,7 +51,7 @@
   width: 60%;
   height: 500px;
   border: 1px solid black;
-  background-color: #f2f4f7;
+  background-color: #f7f7f7;
 
 
 }
