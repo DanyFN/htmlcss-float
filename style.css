@@ -3,10 +3,7 @@
   ;
 }
 
-body{
 
-  background-color: grey;
-}
 .container:after{
 
   clear: both;
@@ -24,10 +21,17 @@ body{
   background-color: white;
 }
 
-#social{
+.icon{
+margin-top: 10px;
+width: 33.33%;
+background-color: grey;
+height:
 
 
 }
+
+
+
 
 #fotocv{
 background-image: url("drum.jpg");
@@ -70,12 +74,12 @@ button{
   background-color: white;
   float: left;
   width: calc(100% - 33.33%);
-  height: 500px;
+  height: 700px;
 
 }
 
 
-.colonna2 h1{
+.colonna2 h2{
 
 
 
@@ -88,4 +92,11 @@ img{
   float: left;
   width: 50px;
   height: 100px;
+}
+footer{
+  position: absolute;
+  height: 200px;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
 }
