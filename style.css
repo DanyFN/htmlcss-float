@@ -30,6 +30,8 @@ margin-left: auto;
 margin-right: auto;
 }
 
+
+
 h1{
 
   font-size: 30px;
@@ -63,6 +65,28 @@ button{
 
 
 }
+
+#fotomario{
+  background-image: url("mario.jpg");
+  height: 33.33%;
+  width: 150px;
+  background-size:cover;
+  margin: 0;
+
+}
+
+
+
+
+
+
+
+
+#fotozelda
+#fotocdonkey
+
+
+
 
 
 #social{
